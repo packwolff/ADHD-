@@ -5,13 +5,31 @@
   "build": {
     "development": {
       "developmentClient": true,
-      "distribution": "internal"
+      "distribution": "internal",
+      "extra": {
+        "eas": {
+          "projectId": "your-project-id"
+        }
+      },
+      "owner": "packwolff"
     },
     "preview": {
-      "distribution": "internal"
+      "distribution": "internal",
+      "extra": {
+        "eas": {
+          "projectId": "your-project-id"
+        }
+      },
+      "owner": "packwolff"
     },
     "production": {
-      "distribution": "store"
+      "distribution": "store",
+      "extra": {
+        "eas": {
+          "projectId": "your-project-id"
+        }
+      },
+      "owner": "packwolff"
     }
   },
   "submit": {
