@@ -41,7 +41,8 @@
     },
     "extra": {
       "eas": {
-        "projectId": "your-project-id-here"
+        "projectId": "your-project-id-here",
+        "owner": "packwolff"
       }
     }
   }
